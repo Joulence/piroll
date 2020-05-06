@@ -767,3 +767,81 @@ p{
 		grid-template-columns: repeat(1, 1fr);
 	}
 }
+
+/* Carousel */
+
+.carousel-inner {
+	text-align: center;
+	height: 31rem;
+}
+
+.carousel-indicators li {
+	border-radius: 100%;
+	width: 10px;
+	height: 10px;
+}
+
+.carousel-item {
+	padding-top: 10rem;
+  }
+
+  .carousel_item_title {
+  	font-family: 'Montserrat', sans-serif;
+  	font-weight: 700;
+  	font-size: 2rem;
+  	color: #fff;
+  }
+
+  .carousel_item_subtitle {
+  	font-size: 0.9rem;
+  	font-weight: 400;
+  	font-family: 'Nunito Sans', sans-serif;
+  	color: #fff;
+  	text-transform: uppercase;
+  }
+
+  @media screen  and (max-width: 1240px) {
+  		.carousel_item_title {
+  			font-size: 1.8rem;
+  		}
+
+  		.carousel-inner {
+  			height: 25rem;
+  		}
+  }
+
+   @media screen  and (max-width: 970px) {
+  		.carousel_item_title {
+  			font-size: 1.6rem;
+  		}
+  }
+
+     @media screen  and (max-width: 900px) {
+  		.carousel_item_title {
+  			font-size: 1.4rem;
+  		}
+
+  		.carousel-inner {
+  			height: 23rem;
+  		}
+  }
+
+     @media screen  and (max-width: 760px) {
+  		.carousel_item_title {
+  			font-size: 1.2rem;
+  		}
+
+  		.carousel-inner {
+  			height: 21rem;
+  		}
+  }
+
+       @media screen  and (max-width: 650px) {
+  		.carousel_item_title {
+  			font-size: 1.1rem;
+  		}
+
+  		.carousel_item_subtitle {
+			font-size: 0.8rem;
+  		}
+  }

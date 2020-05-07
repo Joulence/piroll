@@ -785,14 +785,14 @@ p{
 	padding-top: 10rem;
   }
 
-  .carousel_item_title {
+.carousel_item_title {
   	font-family: 'Montserrat', sans-serif;
   	font-weight: 700;
   	font-size: 2rem;
   	color: #fff;
   }
 
-  .carousel_item_subtitle {
+.carousel_item_subtitle {
   	font-size: 0.9rem;
   	font-weight: 400;
   	font-family: 'Nunito Sans', sans-serif;
@@ -800,7 +800,7 @@ p{
   	text-transform: uppercase;
   }
 
-  @media screen  and (max-width: 1240px) {
+@media screen  and (max-width: 1240px) {
   		.carousel_item_title {
   			font-size: 1.8rem;
   		}
@@ -810,13 +810,13 @@ p{
   		}
   }
 
-   @media screen  and (max-width: 970px) {
+@media screen  and (max-width: 970px) {
   		.carousel_item_title {
   			font-size: 1.6rem;
   		}
   }
 
-     @media screen  and (max-width: 900px) {
+@media screen  and (max-width: 900px) {
   		.carousel_item_title {
   			font-size: 1.4rem;
   		}
@@ -826,7 +826,7 @@ p{
   		}
   }
 
-     @media screen  and (max-width: 760px) {
+@media screen  and (max-width: 760px) {
   		.carousel_item_title {
   			font-size: 1.2rem;
   		}
@@ -836,12 +836,44 @@ p{
   		}
   }
 
-       @media screen  and (max-width: 650px) {
+@media screen  and (max-width: 650px) {
   		.carousel_item_title {
   			font-size: 1.1rem;
   		}
 
   		.carousel_item_subtitle {
 			font-size: 0.8rem;
+  		}
+
+  		.carousel-item {
+			padding-top: 9rem;
+  		}
+  }
+
+@media screen  and (max-width: 605px) {
+  		.carousel_item_title {
+  			font-size: 1rem;
+  		}
+
+  		.carousel_item_subtitle {
+			font-size: 0.8rem;
+  		}
+
+  		.carousel-item {
+			padding-top: 8rem;
+  		}
+  }
+
+@media screen  and (max-width: 605px) {
+  		.carousel_item_title {
+  			font-size: 0.9rem;
+  		}
+
+  		.carousel_item_subtitle {
+			font-size: 0.7rem;
+  		}
+
+  		.carousel-item {
+			padding-top: 8rem;
   		}
   }

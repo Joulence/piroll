@@ -911,3 +911,140 @@ p{
 		grid-template-columns: repeat(1, 1fr);
 	}
 }
+
+/* Project */
+
+.project {
+	background: #f5f5f5;
+	width: 100%;
+	margin-top: 4rem;
+	padding-bottom: 6.4rem;
+}
+
+.project_text {
+	text-align: center;
+	padding-top: 6.3rem;
+}
+
+.project_title {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 2rem;
+	font-weight: 700;
+	color: #191919;
+	margin-bottom: 1.5rem;
+}
+
+.project_subtitle {
+	font-family: 'Nunito Sans', sans-serif;
+	font-size: 0.9rem;
+	font-weight: 400;
+	color: #787878;
+}
+
+.project_form {
+	align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+form {
+	margin-top: 2.5rem;
+}
+
+.form_name {
+	font-family: 'Nunito Sans', sans-serif;
+	font-size: 1rem;
+	width: 20rem;
+	border: none;
+	color: #787878;
+	padding-left: 24px;
+	height: 49px;
+}
+
+.form_email {
+	font-family: 'Nunito Sans', sans-serif;
+	font-size: 1rem;
+	width: 20rem;
+	border: none;
+	color: #787878;
+	padding-left: 24px;
+	height: 49px;
+	margin-left: 2rem;
+}
+
+.form_title {
+	font-family: 'Nunito Sans', sans-serif;
+	font-size: 1rem;
+	width: 42.4rem;
+	border: none;
+	color: #787878;
+	padding-left: 24px;
+	height: 49px;
+}
+
+textarea {
+	height: 130px;
+	width: 42.4rem;
+	resize: none;
+	border: none;
+	color: #787878;
+	padding-left: 24px;
+	font-size: 1rem;
+}
+
+.form_button {
+	text-align: center;
+}
+
+.form_btn {
+	border: none;
+	background: #10c9c3;
+	color: #fff;
+	padding: 1em 3em;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	text-transform: uppercase;
+	transition: background .1s linear;
+}
+
+.form_btn:hover {
+	background: #03aca6;
+}
+
+@media screen and (max-width: 900px) {
+	.form_name, .form_email {
+		width: 18rem;
+	}
+
+	.form_title, textarea {
+		width: 38.4rem;
+	}
+}
+
+@media screen and (max-width: 680px) {
+	.form_email {
+		margin-left: 0;
+	}
+
+	.form_name, .form_email {
+		width: 15rem;
+	}
+
+	.form_title, textarea {
+		width: 30.4rem;
+	}
+}
+
+@media screen and (max-width: 550px) {
+	.form_email {
+		margin-left: 0;
+	}
+
+	.form_name, .form_email {
+		width: 13rem;
+	}
+
+	.form_title, textarea {
+		width: 26.4rem;
+	}
+}

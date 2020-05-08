@@ -1062,3 +1062,11 @@ textarea {
 		width: 20.4rem;
 	}
 }
+
+/* Footer */
+
+footer {
+	width: 100%;
+	background: #141414;
+	color: #bcbcbc;
+}

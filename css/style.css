@@ -1048,3 +1048,17 @@ textarea {
 		width: 26.4rem;
 	}
 }
+
+@media screen and (max-width: 455px) {
+	.form_email {
+		margin-left: 0;
+	}
+
+	.form_name, .form_email {
+		width: 10rem;
+	}
+
+	.form_title, textarea {
+		width: 20.4rem;
+	}
+}

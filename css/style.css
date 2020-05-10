@@ -1149,10 +1149,10 @@ h3 {
 
 @media screen and (max-width: 450px) {
 	footer, h3, .footer_subtitle {
-		font-size: 0.6rem;
+		font-size: 0.55rem;
 	}
 
 	footer_title {
-		font-size: 0.7rem;
+		font-size: 0.6rem;
 	}
 }

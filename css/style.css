@@ -1,4 +1,4 @@
-/* 
+﻿/* 
 font-family: 'Nunito Sans', sans-serif;
 font-family: 'Work Sans', sans-serif;
 font-family: 'Montserrat', sans-serif;
@@ -1117,12 +1117,32 @@ h3 {
 	color: #fff;
 }
 
-@media screen and (max-width: 900px;) {
-	.nav_footer {
-		font-size: 0.9rem;
+@media screen and (max-width: 900px) {
+	footer, h3, .footer_subtitle {
+		font-size: 0.8rem;
 	}
 
-	.footer_title {
-		font-size: 0.5rem;
+	footer_title {
+		font-size: 0.95;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	footer, h3, .footer_subtitle {
+		font-size: 0.7rem;
+	}
+
+	footer_title {
+		font-size: 0.85;
+	}
+}
+
+@media screen and (max-width: 500px) {
+	footer, h3, .footer_subtitle {
+		font-size: 0.65rem;
+	}
+
+	footer_title {
+		font-size: 0.8;
 	}
 }

@@ -1122,7 +1122,7 @@ h3 {
 		font-size: 0.8rem;
 	}
 
-	footer_title {
+	.footer_title {
 		font-size: 0.95;
 	}
 }
@@ -1132,7 +1132,7 @@ h3 {
 		font-size: 0.7rem;
 	}
 
-	footer_title {
+	.footer_title {
 		font-size: 0.85;
 	}
 }
@@ -1142,7 +1142,7 @@ h3 {
 		font-size: 0.65rem;
 	}
 
-	footer_title {
+	.footer_title {
 		font-size: 0.8;
 	}
 }
@@ -1152,7 +1152,7 @@ h3 {
 		font-size: 0.55rem;
 	}
 
-	footer_title {
+	.footer_title {
 		font-size: 0.6rem;
 	}
 }

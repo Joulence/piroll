@@ -227,14 +227,24 @@ main {
   height: 400px;
 }
 
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
 .item-a,
-.item-b{
+.item-b {
   width: 100%;
   height: 100%;
   position: absolute;
   top: 0;
   left: 0;
-  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  -webkit-transition: 0.3s linear;
+  -o-transition: 0.3s linear;
   transition: 0.3s linear;
   padding: 20px;
   text-transform: capitalize;
@@ -242,7 +252,8 @@ main {
 
 .item-a {
   background: #e9e9e9;
-  transform: rotateX(0deg);
+  -webkit-transform: rotateX(0deg);
+          transform: rotateX(0deg);
 }
 
 .item-a_text {
@@ -255,20 +266,23 @@ main {
 }
 
 .item-a.flip1{
-  transform: rotateX(180deg);
+  -webkit-transform: rotateX(180deg);
+          transform: rotateX(180deg);
 }
 
 .item-b {
   color: #171717;	
   background: #f8f9f9;
-  transform: rotateX(-180deg);
+  -webkit-transform: rotateX(-180deg);
+          transform: rotateX(-180deg);
 }
 
 .item-b.flip2{
-  transform: rotateX(0deg);
+  -webkit-transform: rotateX(0deg);
+          transform: rotateX(0deg);
 }
 
-p{
+p {
   text-transform: uppercase;
   color: #fff;
   position: relative;
@@ -301,7 +315,6 @@ p{
   position: relative;
   width: 50%;
   height: 400px;
-  perspective: 1000px;
 }
 
 .item-c,
@@ -311,7 +324,10 @@ p{
   position: absolute;
   top: 0;
   left: 0;
-  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  -webkit-transition: 0.3s linear;
+  -o-transition: 0.3s linear;
   transition: 0.3s linear;
   padding: 20px;
   text-transform: capitalize;
@@ -320,20 +336,24 @@ p{
 
 .item-c{
   background: #e9e9e9;
-  transform: rotateX(0deg);
+  -webkit-transform: rotateX(0deg);
+          transform: rotateX(0deg);
 }
 
 .item-c.flip1{
-  transform: rotateX(180deg);
+  -webkit-transform: rotateX(180deg);
+          transform: rotateX(180deg);
 }
 
 .item-d{
   background: #f8f9f9;
-  transform: rotateX(-180deg);
+  -webkit-transform: rotateX(-180deg);
+          transform: rotateX(-180deg);
 }
 
 .item-d.flip2{
-  transform: rotateX(0deg);
+  -webkit-transform: rotateX(0deg);
+          transform: rotateX(0deg);
 }
 
 .progress {

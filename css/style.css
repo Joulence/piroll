@@ -1148,35 +1148,36 @@ h3 {
 }
 
 @media screen and (max-width: 600px) {
-	footer, h3, .footer_subtitle {
-		font-size: 0.7rem;
+	footer {
+		text-align: center;
+		padding-bottom: 1rem;
 	}
 
-	.footer_title {
-		font-size: 0.85rem;
-	}
-	
-	footer {
+	footer, .nav_footer {
 	display: block;
 	}
-}
 
-@media screen and (max-width: 500px) {
-	footer, h3, .footer_subtitle {
-		font-size: 0.65rem;
+	.nav_l2 {
+		margin: 0;
+	}
+
+	.nav_footer {
+		display: flex;
+		justify-content: center;
+	}
+
+	h3 {
+		font-size: 1.07rem;
 	}
 
 	.footer_title {
-		font-size: 0.8rem;
+		font-size: 1.125rem;
 	}
-}
-
-@media screen and (max-width: 450px) {
-	footer, h3, .footer_subtitle {
-		font-size: 0.55rem;
+	
+	.footer_subtitle {
+		font-size: 1.07rem;
 	}
-
-	.footer_title {
-		font-size: 0.7rem;
+	address {
+		font-size: 1.07rem;
 	}
 }

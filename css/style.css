@@ -1,4 +1,4 @@
-﻿/* 
+/* 
 font-family: 'Nunito Sans', sans-serif;
 font-family: 'Work Sans', sans-serif;
 font-family: 'Montserrat', sans-serif;
@@ -1179,5 +1179,9 @@ h3 {
 	}
 	address {
 		font-size: 1.07rem;
+	}
+
+	.nav_l2 {
+		margin-left: 1rem;
 	}
 }

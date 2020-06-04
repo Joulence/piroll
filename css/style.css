@@ -227,12 +227,9 @@ main {
   height: 400px;
 }
 
-/*
-* Prefixed by https://autoprefixer.github.io
-* PostCSS: v7.0.29,
-* Autoprefixer: v9.7.6
-* Browsers: last 4 version
-*/
+.item-a {
+	text-align: center;
+}
 
 .item-a,
 .item-b {
@@ -1139,11 +1136,11 @@ h3 {
 
 @media screen and (max-width: 900px) {
 	footer, h3, .footer_subtitle {
-		font-size: 0.8rem;
+		font-size: 0.9rem;
 	}
 
 	.footer_title {
-		font-size: 0.95rem;
+		font-size: 1rem;
 	}
 }
 

@@ -4,6 +4,10 @@ font-family: 'Work Sans', sans-serif;
 font-family: 'Montserrat', sans-serif;
 */
 
+html {
+  scroll-behavior: smooth;
+}
+
 /* Header */
 
 header {

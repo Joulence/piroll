@@ -31,19 +31,20 @@
 			<a href="#testimonials" class="h_list">testimonials</a>
 			<a href="#contacts" class="h_list">contacts</a>
 		</div>
-			<div class="dropdown">
-  				<button class="btn" style="outline: none;" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-    				<img src="img/nav/menu.png">
-  				</button>
-  				<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-    				<a class="dropdown-item" href="#">home</a>
-    				<a class="dropdown-item" href="#">about</a>
-    				<a class="dropdown-item" href="#">process</a>
-    				<a class="dropdown-item" href="#">servises</a>
-    				<a class="dropdown-item" href="#">testimonials</a>
-    				<a class="dropdown-item" href="#">contacts</a>
-  				</div>
-			</div>
+
+		
+		<div id="mySidenav" class="sidenav">
+  			<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  				<a class="sidenav_links" href="#">Home</a>
+  				<a class="sidenav_links" href="#">About</a>
+  				<a class="sidenav_links" href="#">Process</a>
+  				<a class="sidenav_links" href="#">Services</a>
+  				<a class="sidenav_links" href="#">Testimonials</a>
+  				<a class="sidenav_links" href="#">Contacts</a>
+  			</div>
+		</div>
+		<span class="nav_side" style="font-size:30px;cursor:pointer" onclick="openNav()"><img src="D:\Sites\05. Piroll\img\nav\menu.png"></span>
+
 	</nav>
 </header>
 
@@ -388,6 +389,15 @@
 </footer>
 
 <!-- Scripts -->
+	<script>
+		function openNav() {
+  			document.getElementById("mySidenav").style.width = "250px";
+		}
+
+		function closeNav() {
+  			document.getElementById("mySidenav").style.width = "0";
+		}
+	</script>
 	<script src="js/skills/left.js" type="text/javascript"></script>
 	<script src="js/skills/right.js" type="text/javascript"></script>
 	<script src="https://kit.fontawesome.com/a86f489626.js" crossorigin="anonymous"></script>

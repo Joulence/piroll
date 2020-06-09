@@ -1,4 +1,4 @@
-/* 
+﻿/* 
 font-family: 'Nunito Sans', sans-serif;
 font-family: 'Work Sans', sans-serif;
 font-family: 'Montserrat', sans-serif;
@@ -58,6 +58,7 @@ header {
   overflow-x: hidden;
   transition: 0.5s;
   padding-top: 60px;
+  padding-bottom: 10px;
 }
 
 .sidenav a {

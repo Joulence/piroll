@@ -60,6 +60,8 @@ header {
   right: 0;
   background-color: #111;
   overflow-x: hidden;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
   transition: 0.5s;
   padding-top: 60px;
 }
@@ -68,6 +70,8 @@ header {
   padding: 8px 8px 8px 32px;
   text-decoration: none;
   display: block;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
   transition: 0.3s;
 }
 

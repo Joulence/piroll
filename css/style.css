@@ -715,47 +715,30 @@ p {
 }
 
 .process_video {
-	width: 86%;
-	background: #e9e9e9;
 	align-items: center;
 	text-align: center;
 	position: relative;
-	margin-left: 7%;
+}
+
+.process_vid {
+	width: 86%;
 	height: 40rem;
 }
 
-.fa-play {
-	font-size: 2rem;
-	color: #ffffff;
-}
-
-.round {
-	width: 5rem;
-  	height: 5rem;
-  	border-radius: 50%;
-  	line-height: 5.5rem;  /* подробнее про line-height */
-  	text-align: center;  /* выравнять текст по середине по горизонтали */
-  	background: #10c9c3;
-  	position: absolute;
-  	top: 50%;
-  	left: 50%;
-  	transform: translate(-50%, -50%);
-}
-
 @media screen and (max-width: 1240px) {
-	.process_video {
+	.process_vid {
 		height: 30rem;
 	}
 }
 
 @media screen and (max-width: 900px) {
-	.process_video {
+	.process_vid {
 		height: 20rem;
 	}
 }
 
 @media screen and (max-width: 740px) {
-	.process_video {
+	.process_vid {
 		height: 15rem;
 	}
 }

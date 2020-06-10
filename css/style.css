@@ -739,11 +739,19 @@ p {
 	.process_vid {
 		height: 20rem;
 	}
+	
+	.process_text {
+		margin-bottom: 6rem;
+	}
 }
 
 @media screen and (max-width: 740px) {
 	.process_vid {
 		height: 15rem;
+	}
+
+	.process_text {
+		margin-bottom: 3rem;
 	}
 }
 

@@ -60,9 +60,9 @@ header {
   right: 0;
   background-color: #111;
   overflow-x: hidden;
-  -webkit-transition: 0.5s;
-  -o-transition: 0.5s;
-  transition: 0.5s;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
   padding-top: 60px;
 }
 
